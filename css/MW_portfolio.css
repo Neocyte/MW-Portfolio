@@ -177,6 +177,7 @@ html {
 .project-preview1,
 .project-preview2,
 .project-preview3 {
+  width: 70%;
   box-shadow: 5px 5px 5px #808080;
 }
 
