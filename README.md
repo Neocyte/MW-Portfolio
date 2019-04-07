@@ -11,7 +11,7 @@ This project is an ongoing culmination of all of my web development skills. It c
 
 ## Instructions
 
-You can access the portfolio by clicking [here](https://neocyte.github.io/portfolio/).
+You can access the portfolio by clicking [here](https://neocyte.github.io/MW-Portfolio/).
 
 * Clicking on any of the navigation links will make the browser scroll down to the respective section of the portfolio.
 
