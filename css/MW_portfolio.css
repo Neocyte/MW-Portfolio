@@ -25,17 +25,26 @@ html {
   height: 100%;
   display: flex;
   text-align: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.nav-container a:hover {
+  opacity: 0.75;
+  background-color: #111;
+  color: #fff;
 }
 
 .nav-1,
 .nav-2,
 .nav-3 {
   width: 10%;
-  height: 33%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #2E2E2E;
   text-decoration: none;
 }
