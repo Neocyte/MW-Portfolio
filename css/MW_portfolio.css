@@ -185,7 +185,7 @@ html {
 
 .section-contact {
   text-align: center;
-  padding: 5% 20%;
+  padding: 5% 30%;
   font-size: 30px;
 }
 
@@ -198,13 +198,15 @@ html {
   align-items: center;
 }
 
-.contact-heading {
-  width: 100%;
+.contact-heading1,
+.contact-heading2 {
+  width: 35%;
   text-align: center;
 }
 
-.contact-email {
-  width: 100%;
+.contact-email,
+.contact-github {
+  width: 65%;
   text-align: center;
 }
 
