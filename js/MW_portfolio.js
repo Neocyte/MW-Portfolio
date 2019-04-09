@@ -30,3 +30,34 @@
     projectPreview3.setAttribute('src', 'images/feedreader static.jpg');
   });
 })();
+
+// Adds scrolling to the navigation links
+(function navScroll() {
+  const nav1 = document.querySelector('.nav-1');
+  const nav2 = document.querySelector('.nav-2');
+  const nav3 = document.querySelector('.nav-3');
+  const intro = document.querySelector('.section-text');
+  const project = document.querySelector('.section-project');
+  const contact = document.querySelector('.section-contact');
+
+  nav1.addEventListener("click", function(e) {
+    e.preventDefault();
+    intro.scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+
+  nav2.addEventListener("click", function(e) {
+    e.preventDefault();
+    project.scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+
+  nav3.addEventListener("click", function(e) {
+    e.preventDefault();
+    contact.scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+})();
