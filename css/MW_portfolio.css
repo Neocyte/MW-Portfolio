@@ -169,7 +169,7 @@ html {
 .project1,
 .project2,
 .project3 {
-  width: 33%;
+  width: 32.33%;
   transform: translate(0, 5%);
   transition: all 0.5s ease;
   flex-direction: column;
