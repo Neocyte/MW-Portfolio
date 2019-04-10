@@ -169,13 +169,7 @@ html {
 .project1,
 .project2,
 .project3 {
-<<<<<<< HEAD
-  width: 32.33%;
-||||||| merged common ancestors
-  width: 33%;
-=======
   width: 33.33%;
->>>>>>> e8781123d83996892fc8c1b78cac2c714bd197e9
   transform: translate(0, 5%);
   transition: all 0.5s ease;
   flex-direction: column;
