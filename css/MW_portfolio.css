@@ -310,6 +310,24 @@ html {
 /*MEDIUM DEVICES*/
 
 @media screen and (min-width: 601px) and (max-width: 1050px) {
+
+  .nav-logo-container {
+    width: 10%;
+    height: 100%;
+    text-align: center;
+  }
+
+  .nav-logo {
+    width: 60%;
+  }
+
+  .nav-1,
+  .nav-2,
+  .nav-3 {
+    width: 30%;
+    font-size: 20px;
+  }
+
   .parallax-img1 {
     min-height: 40%;
   }
@@ -328,6 +346,19 @@ html {
     width: 65%;
     text-align: left;
   }
+
+  .contact-heading1,
+  .contact-heading2 {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .contact-email,
+  .contact-github {
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 601px) and (max-width: 800px) {
@@ -338,7 +369,7 @@ html {
   }
 
   .project3 {
-    width: 100%;
+    width: 50%;
   }
 
   .contact-email {
@@ -364,7 +395,7 @@ html {
   }
 
   .intro-description {
-    width: 65%;
+    width: 50%;
     text-align: left;
   }
 
