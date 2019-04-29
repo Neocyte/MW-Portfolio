@@ -9,11 +9,11 @@
   const project3 = document.querySelector('.project3');
   const projectPreview3 = document.querySelector('.project-preview3');
 
-  const project3 = document.querySelector('.project4');
-  const projectPreview3 = document.querySelector('.project-preview4');
+  const project4 = document.querySelector('.project4');
+  const projectPreview4 = document.querySelector('.project-preview4');
 
-  const project3 = document.querySelector('.project5');
-  const projectPreview3 = document.querySelector('.project-preview5');
+  const project5 = document.querySelector('.project5');
+  const projectPreview5 = document.querySelector('.project-preview5');
 
   project1.addEventListener('mouseover', function() {
     projectPreview1.setAttribute('src', 'images/memory game gif.gif');
@@ -44,10 +44,10 @@
   });
 
   project5.addEventListener('mouseover', function() {
-    projectPreview4.setAttribute('src', 'images/myreads gif.gif');
+    projectPreview5.setAttribute('src', 'images/myreads gif.gif');
   });
   project5.addEventListener('mouseout', function() {
-    projectPreview4.setAttribute('src', 'images/myreads static.jpg');
+    projectPreview5.setAttribute('src', 'images/myreads static.jpg');
   });
 })();
 
