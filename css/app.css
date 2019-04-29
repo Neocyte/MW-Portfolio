@@ -168,7 +168,9 @@ html {
 
 .project1,
 .project2,
-.project3 {
+.project3,
+.project4,
+.project5 {
   width: 33.33%;
   transform: translate(0, 5%);
   transition: all 0.5s ease;
@@ -177,7 +179,9 @@ html {
 
 .project1:hover,
 .project2:hover,
-.project3:hover {
+.project3:hover,
+.project4:hover,
+.project5:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
@@ -185,7 +189,9 @@ html {
 
 .project-preview1,
 .project-preview2,
-.project-preview3 {
+.project-preview3,
+.project-preview4,
+.project-preview5 {
   width: 70%;
   box-shadow: 5px 5px 5px #808080;
 }

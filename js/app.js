@@ -9,6 +9,12 @@
   const project3 = document.querySelector('.project3');
   const projectPreview3 = document.querySelector('.project-preview3');
 
+  const project3 = document.querySelector('.project4');
+  const projectPreview3 = document.querySelector('.project-preview4');
+
+  const project3 = document.querySelector('.project5');
+  const projectPreview3 = document.querySelector('.project-preview5');
+
   project1.addEventListener('mouseover', function() {
     projectPreview1.setAttribute('src', 'images/memory game gif.gif');
   });
@@ -28,6 +34,20 @@
   });
   project3.addEventListener('mouseout', function() {
     projectPreview3.setAttribute('src', 'images/feedreader static.jpg');
+  });
+
+  project4.addEventListener('mouseover', function() {
+    projectPreview4.setAttribute('src', 'images/restaurant gif.gif');
+  });
+  project4.addEventListener('mouseout', function() {
+    projectPreview4.setAttribute('src', 'images/restaurant static.jpg');
+  });
+
+  project5.addEventListener('mouseover', function() {
+    projectPreview4.setAttribute('src', 'images/myreads gif.gif');
+  });
+  project5.addEventListener('mouseout', function() {
+    projectPreview4.setAttribute('src', 'images/myreads static.jpg');
   });
 })();
 
